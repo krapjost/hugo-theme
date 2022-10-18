@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap");
+@font-face {
+  font-family: "Source Body";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local(""), url("fonts/SourceCodePro-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Source Body";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(""), url("fonts/SourceCodePro-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Source Code";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(""), url("fonts/SourceCodePro-Light.ttf") format("truetype");
+}
+
+body {
+  font-family: "Noto Serif KR", serif;
+}
+
+code {
+  font-family: "Source Code", monospace;
+}
